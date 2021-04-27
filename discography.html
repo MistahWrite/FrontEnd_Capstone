@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="discography.js"></script>
+        <link rel="stylesheet" href="style.css">
+    
+        <!-- START JQUERY AND JQUERY UI -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <h1>Artist Discography Look Up</h1>
+        <form>
+        <label>Search for artist:</label>
+        <input type="text" id="search" placeholder="Artist or Band Name..."">
+        <input type="button" value="Submit" onclick="getSearch()">
+        </form>
+        
+        <div id="discography">
+              <div id="tabs-1">
+              </div>
+              <div id="tabs-2">
+              </div>
+              <div id="tabs-3">
+              </div>
+        </div>
+    </body>
+</html>
